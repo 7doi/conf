@@ -3,10 +3,11 @@
 var hostname = $domain;
 // 这些网络下不使用默认doh
 var ssids = [
-    'zzzzzzzzz',
+    '修改为wifi名称',
 ];
-// 存在这些dns不使用默认doh
+// 如果路由器提供的dns包括这些dns就不使用doh
 var dnss = [
+//    '192.168.1.1',
 ];
 // 出现以下域名 后缀、域名、关键词、ip 则不使用默认doh
 var domain_suffix = [
