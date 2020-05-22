@@ -1,12 +1,14 @@
+// 根据不同的网络情况决定是否使用doh，还是使用系统的普通dns
+
 var hostname = $domain;
-// 这些网络下不使用默认dns/doh
+// 这些网络下不使用默认doh
 var ssids = [
     'zzzzzzzzz', 
 ];
-// 存在这些dns不使用默认dns/doh
+// 存在这些dns不使用默认doh
 var dnss = [
 ];
-// 出现以下域名 后缀、域名、ip 则不使用默认dns/doh
+// 出现以下域名 后缀、域名、ip 则不使用默认doh
 var domain_suffix = [
 ];
 var domain = [
