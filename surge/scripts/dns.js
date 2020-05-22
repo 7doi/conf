@@ -1,4 +1,12 @@
-// 根据不同的网络情况决定是使用doh，还是使用路由器提供的dns
+/*
+surge 根据不同的网络情况决定是使用doh，还是使用路由器提供的dns
+[General]
+doh-server = 你的DoH服务器
+[Host]
+* = script:dns.js
+[Script]
+nat.js = type=rule,script-path=nat.js
+*/
 
 var hostname = $domain;
 // 这些网络下不使用默认doh
