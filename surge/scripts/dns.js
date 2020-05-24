@@ -5,7 +5,7 @@ doh-server = 你的DoH服务器
 [Host]
 * = script:dns.js
 [Script]
-nat.js = type=rule,script-path=nat.js
+dns.js = type=rule,script-path=dns.js
 */
 
 var hostname = $domain;
