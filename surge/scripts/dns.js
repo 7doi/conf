@@ -25,6 +25,7 @@ var domain = [
 var domain_keyword = [
 ];
 var ip = [  // ip前后可省略
+//    '192.168.1.',
 ];
 
 // ssids
